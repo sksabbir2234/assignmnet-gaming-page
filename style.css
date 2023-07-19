@@ -456,11 +456,11 @@ body {
   }
 
   .container {
-  /* display: flex; */
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  flex-wrap: wrap;
+  
+  display: flex;
+
   justify-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
   border-radius: 3.125rem;
   padding-bottom: 7.5rem;
