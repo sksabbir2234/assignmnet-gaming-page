@@ -454,10 +454,12 @@ body {
   }
 
   .container {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   flex-wrap: wrap;
   justify-items: center;
-  grid-gap: 1.25rem;
+  gap: 1rem;
   border-radius: 3.125rem;
   padding-bottom: 7.5rem;
 }
@@ -592,9 +594,11 @@ body {
 
 
 .category {
-  display: flex;
+  
   align-items: center;
   flex-basis: 15%;
+  flex-wrap: 0;
+  flex-shrink: 0;
   background-color: #ffffff;
   padding: 0.625rem;
   box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.3);
