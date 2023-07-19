@@ -298,6 +298,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  padding-bottom: 5rem;
 }
 
 .category {
