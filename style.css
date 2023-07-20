@@ -580,8 +580,6 @@ body {
   margin-left: 1.25rem;
 }
 
-
-
 .main-feature2 .small-picture {
   position: absolute;
   bottom: -3rem;
@@ -594,6 +592,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: right;
+  
 }
 
 .fet {
@@ -606,11 +605,9 @@ body {
 }
 
 .fxt {
-
- 
   padding-left: 15rem;
   text-align: left;
-
+  width: 10rem;
 }
 
 .container{
@@ -629,7 +626,7 @@ body {
 }
 
 
-/* Footer section */
+
 .footer {
   padding-top: 1.25rem;
   background-color: #0b0223;
