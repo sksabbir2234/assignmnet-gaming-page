@@ -286,10 +286,7 @@ body {
   flex-direction: column;
 }
 
-.fxt {
-  width: 21rem;
-  padding-right: 10rem;
-}
+
 
 .main-contain {
   width: 80%;
@@ -372,7 +369,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .nav{
     flex-direction: column;
   }
@@ -587,13 +584,7 @@ body {
   width: 9.25rem;
 }
 
-.fea-txt {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: right;
-  
-}
+
 
 .fet {
   color: #8758f1;
@@ -605,9 +596,9 @@ body {
 }
 
 .fxt {
-  padding-left: 15rem;
-  text-align: left;
-  width: 10rem;
+ 
+  text-align: center;
+  margin: 0 6rem;
 }
 
 .container{
@@ -630,6 +621,9 @@ body {
 .footer {
   padding-top: 1.25rem;
   background-color: #0b0223;
+  width: 100%;
+  margin: 0 auto;
+
 }
 
 .footer-sec1 {
@@ -639,7 +633,7 @@ body {
   align-items: center;
   gap: 3.125rem;
   color: #FFFFFF;
-  width: 20rem;
+
 }
 
 .fs1 {
@@ -650,7 +644,8 @@ body {
 
 .fs2{
   width: 13rem;
-padding-left: 6rem;
+  margin: 0 auto;
+  
 
 }
 
